@@ -27,8 +27,8 @@ SECRET_KEY = 'django-insecure-kdk&6+!3@4-8z$fwz#c^ys30ms2umv16qoiuim@*p&g^j=y@pj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [sandboxherokudeploy.heroku.com]
-# CORS_ORIGIN_ALLOW_ALL = True
+# ALLOWED_HOSTS = [sandboxherokudeploy.heroku.com]
+CORS_ORIGIN_ALLOW_ALL = True
 
 # Application definition
 
